@@ -1,0 +1,40 @@
+public class Calculator {
+ int result; // Just calculate without any input or image, very simple, just for learning path. 19/11/22
+  public Calculator(){
+ 
+  }
+
+  public int add(int a, int b){
+  result = a + b;
+ return result;
+  }
+
+   public int subtract(int a, int b){
+  result = a - b;
+ return result;
+  }
+
+  public int multiply(int a, int b){
+  result = a * b;
+ return result;
+  }
+
+  public int divide(int a, int b){
+  result = a / b;
+ return result;
+  }
+
+  public int modulo(int a, int b){
+  result = a % b;
+ return result;
+  }
+  public static void main(String[] args){
+  Calculator myCalculator = new Calculator();
+  myCalculator.add(5,7);
+  System.out.println(myCalculator.result);
+  myCalculator.subtract(45,11);
+  System.out.println(myCalculator.result);
+ // colocar numero 
+}
+
+}
